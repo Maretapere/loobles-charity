@@ -515,7 +515,7 @@ section {
  @media screen and (max-width: 600px) {
    .container {
         width: var(--container-width-sm);
-        background: #D4184B;
+        /* background: #D4184B; */
     }
     body {
 
@@ -532,14 +532,22 @@ header {
 
 .container h5 {
     display: contents;
+    text-align: center;
 }
 
 .container h2 {
-    font-size: 40px;
+    font-size: 36px;
+    text-align: center;
 }
 
 .container p {
     font-size: 13px;
+    text-align: center;
+}
+
+.container a {
+    text-decoration: none;
+    text-align: center;
 }
  #myimage {
     object-fit: cover;
