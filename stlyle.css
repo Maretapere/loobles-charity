@@ -236,7 +236,7 @@ header {
 .all {
     margin-top: 5rem;
     display: flex;
-    justify-content: center; Center horizontally
+    justify-content: center;
     align-items: center; 
 }
 
@@ -532,23 +532,17 @@ header {
 
 .container h5 {
     display: contents;
-    text-align: center;
+  
 }
 
 .container h2 {
     font-size: 36px;
-    text-align: center;
 }
 
 .container p {
     font-size: 13px;
-    text-align: center;
 }
 
-.container a {
-    text-decoration: none;
-    text-align: center;
-}
  #myimage {
     object-fit: cover;
  }
